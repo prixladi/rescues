@@ -13,3 +13,7 @@ Folder [/data](data) contains default email templates. File [/Data.md](Data.md) 
 ### `docker-compose up`
 
 Runs production-ready containers with configuration specified in [/docker-compose.yml](docker-compose.yml).
+
+## Images from app
+
+![Drag Racing](assets/homePage.png)
