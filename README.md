@@ -1,4 +1,4 @@
-# Shamyr rescues react
+# Shamyr Rescues 
 
 Frontend can be found in [Shamyr Rescues React](https://github.com/prixladi/shamyr-rescues-react) repository.<br />
 Backend can be found in [Shamyr Rescues Server](https://github.com/prixladi/shamyr-rescues-server) repository.
