@@ -1,8 +1,8 @@
 # Shamyr Rescues 
 
 Frontend can be found in [Shamyr Rescues React](https://github.com/prixladi/shamyr-rescues-react) repository.<br />
-Backend can be found in [Shamyr Rescues Server](https://github.com/prixladi/shamyr-rescues-server) repository.
-
+Backend can be found in [Shamyr Rescues Server](https://github.com/prixladi/shamyr-rescues-server) repository.<br />
+Application is using [Shamyr Authority](https://github.com/prixladi/shamyr-cloud-authority) as identity provider.
 
 ## Data
 
