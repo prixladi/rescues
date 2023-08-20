@@ -1,0 +1,49 @@
+html {
+  --defaultDarkColor: #161515;
+  --defaultLightColor: #f1f1f1;
+  --backgroundColor: #f1f1f1;
+  --defaultInactiveColor: #999;
+  --textColor: #202020;
+  --placeholderColor: rgba(32,32,32, 0.6);
+  --defaultErrorColor: #d23670;
+  --anchorTextColor: #d23670;
+  --buttonBackgroundColor: #4285F4;
+  --disabledButtonBackgroundColor: #999;
+  --inputBackgroundText: rgba(100, 100, 100, 0.2);
+  --selectBackgroundColor: rgba(255, 255, 255, 0.05);
+  --labelColor: #202020;
+  --transition: 800ms ease;
+}
+
+html[data-theme="dark"] {
+  --backgroundColor: #202020;
+  --textColor: #f1f1f1;
+  --placeholderColor: rgba(241,241,241, 0.25);
+  --inputBackgroundText: rgba(255, 255, 255, 0.2);
+  --selectBackgroundColor: rgba(0, 0, 0, 0.5);
+  --labelColor: #bbb;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  -webkit-transition: all var(--transition);
+  -ms-transition: all var(--transition);
+  transition: all var(--transition);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root {
+  height: 100vh;
+}

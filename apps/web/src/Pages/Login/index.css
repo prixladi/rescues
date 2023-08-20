@@ -1,0 +1,24 @@
+#login-page .remember-me {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+}
+
+#login-page .remember-me input {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+}
+
+#login-page .right {
+    font-size: 1em;
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    #login-page .right {
+        float: none;
+    }
+}

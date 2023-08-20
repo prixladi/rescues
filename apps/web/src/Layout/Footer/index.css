@@ -1,0 +1,19 @@
+#content footer {
+    margin-top: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+#content footer:before {
+    content: '';
+    width: 15em;
+    height: 0.1em;
+    left: 0;
+    top: 0;
+    background-color: var(--textColor);
+    position: absolute;
+    -webkit-transition: all var(--transition);
+    -ms-transition: all var(--transition);
+    transition: all var(--transition);
+}

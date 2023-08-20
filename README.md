@@ -1,23 +1,16 @@
-# Shamyr Rescues 
+# Rescues 
 
-Application tracking animal rescues.
+Application for advertising / searching for animal rescues.
 
-## Application Parts
+## Applications
 
-The frontend can be found in [Shamyr Rescues React](https://github.com/prixladi/shamyr-rescues-react) repository.<br />
-The backend can be found in [Shamyr Rescues Server](https://github.com/prixladi/shamyr-rescues-server) repository.<br />
-Application is using [Shamyr Authority](https://github.com/prixladi/shamyr-cloud-authority) as an identity provider.
+- [Frontend](/apps/web) - react web application and administration communicating with backend
+- [Backend](/apps/server) - nodejs backend server storing data to postgresql
 
-## Data
+## External
 
-Folder [/data](data) contains default email templates. File [/Data.md](Data.md) contains JSON data that can be used to initialize Database (Client and email templates).
+- [Authority](https://github.com/prixladi/shamyr-cloud-authority) - identity provider
+- [PostgreSQL](https://www.postgresql.org/) - main database
 
-## Docker
-
-### `docker-compose up`
-
-Runs production-ready containers with the configuration specified in [/docker-compose.yml](docker-compose.yml).
-
-## Images from app
-
-![Drag Racing](assets/homePage.png)
+## Application images
+![Drag Racing](assets/home-page.png)

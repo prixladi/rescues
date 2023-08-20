@@ -1,0 +1,86 @@
+.bm-burger-button {
+    position: fixed;
+    width: 2.5em;
+    height: 2em;
+    right: 2em;
+    top: 2em;
+}
+
+.bm-burger-bars {
+    background: var(--textColor);
+    -webkit-transition: all var(--transition);
+    -ms-transition: all var(--transition);
+    transition: all var(--transition);
+}
+
+.bm-cross-button {
+    height: 2em;
+    width: 2em;
+}
+
+.bm-cross {
+    background: #bdc3c7;
+}
+
+.bm-menu {
+    background-color: var(--defaultDarkColor);
+    padding: 2.5em 1.5em 0;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.bm-item-list {
+    display: grid;
+    grid-template-rows: 35% 58% 7%
+}
+
+.bm-menu-wrap {
+    width: 15em !important;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bm-header {
+    color: var(--defaultLightColor);
+    padding-top: 1em;
+}
+
+.bm-title {
+    letter-spacing: 0.03em;
+    font-size: 2em;
+    font-weight: 300;
+    display: block;
+}
+
+.bm-subtitle {
+    font-weight: 900;
+}
+
+.bm-cross-button {
+    letter-spacing: 0.03em;
+    font-size: 2em;
+    display: block;
+}
+
+.bm-footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2em;
+}
+
+.bm-footer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%
+}
